@@ -104,7 +104,7 @@ export default function AppPage({ params }: { params: { id: string } }) {
               <p className="text-2xl font-bold mb-1">{app.free ? "Free" : `$${app.price}`}</p>
               {!app.free && <p className="text-sm text-muted-foreground">One-time purchase</p>}
             </div>
-            <Button className="w-full mb-4" size="lg">
+            <Button className="w-full mb-4 hover:rounded-none transition-all" size="lg">
               <Download className="mr-2 h-4 w-4" />
               Install App
             </Button>

@@ -2,9 +2,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Switch } from "@/components/ui/switch"
-import { Trash2, Settings, Shield, Bell } from "lucide-react"
+import { Trash2, Settings, Shield, Bell, ChevronLeft } from "lucide-react"
 import { apps } from "@/lib/data"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Dashboard() {
   // Simulate installed apps (first 3 apps)
@@ -12,11 +13,13 @@ export default function Dashboard() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Link href="/" className="flex items-center text-muted-foreground mb-6">
+        <ChevronLeft className="mr-1 h-4 w-4" />
+        Back to Neuron
+      </Link>
+      
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold">My Dashboard</h1>
-        <Button variant="outline" asChild>
-          <a href="/">Browse App Store</a>
-        </Button>
       </div>
 
       <Tabs defaultValue="apps">

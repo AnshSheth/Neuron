@@ -47,7 +47,7 @@ export function AppCard({ app }: AppCardProps) {
         <span className={app.free ? "text-green-600 font-medium" : "text-gray-700 font-medium"}>
           {app.free ? "Free" : `$${app.price}`}
         </span>
-        <Button size="sm" className="rounded-full bg-blue-600 hover:bg-blue-700">
+        <Button size="sm" className="rounded-full bg-blue-600 hover:bg-blue-700 hover:rounded-none transition-all">
           <Download className="mr-1 h-4 w-4" />
           Install
         </Button>
