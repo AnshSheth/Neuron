@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { BarChart3, PlusCircle, ArrowUpDown, Download } from "lucide-react"
+import { PlusCircle, ArrowUpDown, Download } from "lucide-react"
 import { apps } from "@/lib/data"
 
 export default function DeveloperDashboard() {

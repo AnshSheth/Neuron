@@ -45,7 +45,7 @@ export default function SubmitApp() {
                       <SelectItem value="productivity">Productivity</SelectItem>
                       <SelectItem value="entertainment">Entertainment</SelectItem>
                       <SelectItem value="education">Education</SelectItem>
-                      <SelectItem value="health">Health & Fitness</SelectItem>
+                      <SelectItem value="health">Health &amp; Fitness</SelectItem>
                       <SelectItem value="travel">Travel</SelectItem>
                       <SelectItem value="shopping">Shopping</SelectItem>
                       <SelectItem value="finance">Finance</SelectItem>
@@ -179,7 +179,7 @@ export default function SubmitApp() {
                       htmlFor="permission-files"
                       className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                     >
-                      Files & Storage
+                      Files &amp; Storage
                     </Label>
                     <p className="text-sm text-muted-foreground">Access user's files and storage</p>
                   </div>
