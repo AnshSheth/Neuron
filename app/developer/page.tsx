@@ -5,9 +5,10 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { PlusCircle, ArrowUpDown, Download } from "lucide-react"
+import { PlusCircle, ArrowUpDown, Download, ChevronLeft } from "lucide-react"
 import { apps } from "@/lib/data"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function DeveloperDashboard() {
   // Simulate developer's apps (first 2 apps)
@@ -15,6 +16,11 @@ export default function DeveloperDashboard() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Link href="/" className="flex items-center text-muted-foreground mb-6">
+        <ChevronLeft className="mr-1 h-4 w-4" />
+        Back to Neuron
+      </Link>
+      
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold">Developer Dashboard</h1>
         <Button asChild>

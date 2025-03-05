@@ -15,7 +15,7 @@ export default function AppPage({ params }: { params: { id: string } }) {
     <div className="container mx-auto px-4 py-8">
       <Link href="/" className="flex items-center text-muted-foreground mb-6">
         <ChevronLeft className="mr-1 h-4 w-4" />
-        Back to App Store
+        Back to Neuron
       </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -125,7 +125,7 @@ export default function AppPage({ params }: { params: { id: string } }) {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Similar Apps</h2>
-        <AppGrid category={app.category} />
+        <AppGrid category={app.category} excludeId={app.id} />
       </section>
     </div>
   )
