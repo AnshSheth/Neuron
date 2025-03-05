@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
@@ -14,10 +15,12 @@ export function AppCard({ app }: AppCardProps) {
     <Card className="overflow-hidden transition-all hover:shadow-md">
       <Link href={`/app/${app.id}`}>
         <div className="aspect-square relative overflow-hidden bg-muted">
-          <img
+          <Image
             src={app.icon || "/placeholder.svg"}
             alt={app.name}
-            className="object-cover w-full h-full transition-transform hover:scale-105"
+            className="object-cover transition-transform hover:scale-105"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </Link>

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Switch } from "@/components/ui/switch"
 import { Trash2, Settings, Shield, Bell } from "lucide-react"
 import { apps } from "@/lib/data"
+import Image from "next/image"
 
 export default function Dashboard() {
   // Simulate installed apps (first 3 apps)
@@ -33,10 +34,12 @@ export default function Dashboard() {
                   <div className="flex items-start justify-between">
                     <div className="flex items-start gap-3">
                       <div className="w-12 h-12 rounded-lg overflow-hidden bg-muted">
-                        <img
+                        <Image
                           src={app.icon || "/placeholder.svg"}
                           alt={app.name}
-                          className="w-full h-full object-cover"
+                          className="object-cover"
+                          width={48}
+                          height={48}
                         />
                       </div>
                       <div>

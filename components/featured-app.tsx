@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { apps } from "@/lib/data"
@@ -23,12 +24,13 @@ export default function FeaturedApp() {
         </div>
         <div className="flex items-center justify-center">
           <div className="relative w-full max-w-[300px] aspect-square rounded-xl overflow-hidden">
-            <img
+            <Image
               src={featuredApp.screenshot || featuredApp.icon}
               alt={featuredApp.name}
-              className="object-contain w-full h-full"
+              className="object-contain"
               width={300}
               height={300}
+              priority
             />
           </div>
         </div>

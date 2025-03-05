@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ChevronLeft, Shield, Download, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -21,7 +22,14 @@ export default function AppPage({ params }: { params: { id: string } }) {
         <div className="md:col-span-2">
           <div className="flex items-start gap-4 mb-6">
             <div className="w-20 h-20 rounded-xl overflow-hidden bg-muted">
-              <img src={app.icon || "/placeholder.svg"} alt={app.name} className="w-full h-full object-cover" />
+              <Image 
+                src={app.icon || "/placeholder.svg"} 
+                alt={app.name} 
+                className="object-cover" 
+                width={80}
+                height={80}
+                priority
+              />
             </div>
             <div>
               <h1 className="text-3xl font-bold mb-1">{app.name}</h1>
@@ -42,15 +50,19 @@ export default function AppPage({ params }: { params: { id: string } }) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-            <img
+            <Image
               src={app.screenshot || "/placeholder.svg?height=300&width=600"}
               alt={`${app.name} screenshot`}
-              className="w-full h-auto rounded-lg object-cover"
+              className="rounded-lg object-cover"
+              width={600}
+              height={300}
             />
-            <img
+            <Image
               src={app.screenshot2 || "/placeholder.svg?height=300&width=600"}
               alt={`${app.name} screenshot 2`}
-              className="w-full h-auto rounded-lg object-cover"
+              className="rounded-lg object-cover"
+              width={600}
+              height={300}
             />
           </div>
 

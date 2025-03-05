@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { PlusCircle, ArrowUpDown, Download } from "lucide-react"
 import { apps } from "@/lib/data"
+import Image from "next/image"
 
 export default function DeveloperDashboard() {
   // Simulate developer's apps (first 2 apps)
@@ -39,10 +40,12 @@ export default function DeveloperDashboard() {
                   <div className="flex items-start justify-between">
                     <div className="flex items-start gap-3">
                       <div className="w-16 h-16 rounded-lg overflow-hidden bg-muted">
-                        <img
+                        <Image
                           src={app.icon || "/placeholder.svg"}
                           alt={app.name}
-                          className="w-full h-full object-cover"
+                          className="object-cover"
+                          width={64}
+                          height={64}
                         />
                       </div>
                       <div>
@@ -115,10 +118,12 @@ export default function DeveloperDashboard() {
 
               <div className="w-full flex justify-center">
                 <div className="max-w-[800px] w-full">
-                  <img 
+                  <Image 
                     src="/app-performance-screenshot.svg" 
                     alt="App Performance Analytics" 
-                    className="w-full h-auto object-contain"
+                    className="object-contain"
+                    width={800}
+                    height={400}
                   />
                 </div>
               </div>
