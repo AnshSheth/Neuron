@@ -142,7 +142,7 @@ export default function SubmitApp() {
                     >
                       Location Access
                     </Label>
-                    <p className="text-sm text-muted-foreground">Access user's location data</p>
+                    <p className="text-sm text-muted-foreground">Access user&apos;s location data</p>
                   </div>
                 </div>
 
@@ -155,7 +155,7 @@ export default function SubmitApp() {
                     >
                       Contacts
                     </Label>
-                    <p className="text-sm text-muted-foreground">Access user's contacts</p>
+                    <p className="text-sm text-muted-foreground">Access user&apos;s contacts</p>
                   </div>
                 </div>
 
@@ -168,7 +168,7 @@ export default function SubmitApp() {
                     >
                       Calendar
                     </Label>
-                    <p className="text-sm text-muted-foreground">Access user's calendar</p>
+                    <p className="text-sm text-muted-foreground">Access user&apos;s calendar</p>
                   </div>
                 </div>
 
@@ -181,7 +181,7 @@ export default function SubmitApp() {
                     >
                       Files &amp; Storage
                     </Label>
-                    <p className="text-sm text-muted-foreground">Access user's files and storage</p>
+                    <p className="text-sm text-muted-foreground">Access user&apos;s files and storage</p>
                   </div>
                 </div>
               </div>
