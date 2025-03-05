@@ -1,0 +1,81 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="#3F51B5"/>
+  <text x="20" y="38" font-family="Arial" font-size="24" fill="#FFFFFF">App Performance Analytics</text>
+  
+  <!-- Main Content -->
+  <text x="40" y="100" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Performance Overview - Last 7 Days</text>
+  
+  <!-- Usage Chart -->
+  <rect x="40" y="120" width="720" height="200" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="60" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#3F51B5">Daily Active Users</text>
+  
+  <!-- Chart Grid -->
+  <line x1="100" y1="280" x2="700" y2="280" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="100" y1="220" x2="700" y2="220" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="100" y1="190" x2="700" y2="190" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- X-Axis Labels -->
+  <text x="100" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Mon</text>
+  <text x="200" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Tue</text>
+  <text x="300" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Wed</text>
+  <text x="400" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Thu</text>
+  <text x="500" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Fri</text>
+  <text x="600" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Sat</text>
+  <text x="700" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Sun</text>
+  
+  <!-- Y-Axis Labels -->
+  <text x="80" y="280" font-family="Arial" font-size="12" text-anchor="end" fill="#666">0</text>
+  <text x="80" y="250" font-family="Arial" font-size="12" text-anchor="end" fill="#666">100</text>
+  <text x="80" y="220" font-family="Arial" font-size="12" text-anchor="end" fill="#666">200</text>
+  <text x="80" y="190" font-family="Arial" font-size="12" text-anchor="end" fill="#666">300</text>
+  
+  <!-- Chart Data -->
+  <path d="M100 250 L200 230 L300 210 L400 190 L500 200 L600 220 L700 180" stroke="#3F51B5" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="250" r="5" fill="#3F51B5"/>
+  <circle cx="200" cy="230" r="5" fill="#3F51B5"/>
+  <circle cx="300" cy="210" r="5" fill="#3F51B5"/>
+  <circle cx="400" cy="190" r="5" fill="#3F51B5"/>
+  <circle cx="500" cy="200" r="5" fill="#3F51B5"/>
+  <circle cx="600" cy="220" r="5" fill="#3F51B5"/>
+  <circle cx="700" cy="180" r="5" fill="#3F51B5"/>
+  
+  <!-- Metrics Cards -->
+  <rect x="40" y="340" width="230" height="120" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="60" y="370" font-family="Arial" font-size="18" font-weight="bold" fill="#3F51B5">Total Users</text>
+  <text x="60" y="410" font-family="Arial" font-size="32" font-weight="bold" fill="#333">1,245</text>
+  <text x="60" y="440" font-family="Arial" font-size="14" fill="#4CAF50">↑ 12% from last week</text>
+  
+  <rect x="285" y="340" width="230" height="120" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="305" y="370" font-family="Arial" font-size="18" font-weight="bold" fill="#3F51B5">Avg. Session Time</text>
+  <text x="305" y="410" font-family="Arial" font-size="32" font-weight="bold" fill="#333">4:32</text>
+  <text x="305" y="440" font-family="Arial" font-size="14" fill="#4CAF50">↑ 8% from last week</text>
+  
+  <rect x="530" y="340" width="230" height="120" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="550" y="370" font-family="Arial" font-size="18" font-weight="bold" fill="#3F51B5">Conversion Rate</text>
+  <text x="550" y="410" font-family="Arial" font-size="32" font-weight="bold" fill="#333">3.8%</text>
+  <text x="550" y="440" font-family="Arial" font-size="14" fill="#F44336">↓ 2% from last week</text>
+  
+  <!-- App Breakdown -->
+  <rect x="40" y="480" width="720" height="100" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="60" y="510" font-family="Arial" font-size="18" font-weight="bold" fill="#3F51B5">Top Performing Apps</text>
+  
+  <!-- App 1 -->
+  <rect x="60" y="530" width="200" height="10" rx="5" fill="#3F51B5"/>
+  <text x="270" y="540" font-family="Arial" font-size="14" fill="#333">Travel AI Assistant</text>
+  
+  <!-- App 2 -->
+  <rect x="60" y="550" width="160" height="10" rx="5" fill="#4CAF50"/>
+  <text x="230" y="560" font-family="Arial" font-size="14" fill="#333">Health Nurse AI</text>
+  
+  <!-- App 3 -->
+  <rect x="400" y="530" width="140" height="10" rx="5" fill="#FF9800"/>
+  <text x="550" y="540" font-family="Arial" font-size="14" fill="#333">Productivity Assistant</text>
+  
+  <!-- App 4 -->
+  <rect x="400" y="550" width="120" height="10" rx="5" fill="#E91E63"/>
+  <text x="530" y="560" font-family="Arial" font-size="14" fill="#333">Recipe AI</text>
+</svg> 

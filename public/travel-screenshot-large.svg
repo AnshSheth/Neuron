@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="#4CAF50"/>
+  <text x="20" y="38" font-family="Arial" font-size="24" fill="#FFFFFF">Travel AI Assistant</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="540" fill="#f0f0f0"/>
+  <text x="20" y="100" font-family="Arial" font-size="18" fill="#333">Destinations</text>
+  <rect x="20" y="120" width="160" height="40" rx="5" fill="#FFFFFF"/>
+  <text x="35" y="145" font-family="Arial" font-size="16" fill="#333">Paris</text>
+  <rect x="20" y="170" width="160" height="40" rx="5" fill="#FFFFFF"/>
+  <text x="35" y="195" font-family="Arial" font-size="16" fill="#333">Tokyo</text>
+  <rect x="20" y="220" width="160" height="40" rx="5" fill="#FFFFFF"/>
+  <text x="35" y="245" font-family="Arial" font-size="16" fill="#333">New York</text>
+  
+  <!-- Main Content -->
+  <text x="220" y="100" font-family="Arial" font-size="22" font-weight="bold" fill="#333">Your Paris Itinerary</text>
+  
+  <!-- Day 1 -->
+  <rect x="220" y="120" width="560" height="120" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="240" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Day 1: Eiffel Tower & Louvre</text>
+  <text x="240" y="180" font-family="Arial" font-size="14" fill="#666">9:00 AM - Visit Eiffel Tower</text>
+  <text x="240" y="205" font-family="Arial" font-size="14" fill="#666">2:00 PM - Explore the Louvre Museum</text>
+  
+  <!-- Day 2 -->
+  <rect x="220" y="260" width="560" height="120" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="240" y="290" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Day 2: Notre Dame & Seine River</text>
+  <text x="240" y="320" font-family="Arial" font-size="14" fill="#666">10:00 AM - Visit Notre Dame Cathedral</text>
+  <text x="240" y="345" font-family="Arial" font-size="14" fill="#666">3:00 PM - Seine River Cruise</text>
+  
+  <!-- Weather Widget -->
+  <rect x="220" y="400" width="260" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="240" y="430" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Paris Weather</text>
+  <circle cx="270" cy="470" r="25" fill="#FFEB3B"/>
+  <text x="320" y="475" font-family="Arial" font-size="16" fill="#333">72°F / Sunny</text>
+  
+  <!-- Map Widget -->
+  <rect x="500" y="400" width="280" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="520" y="430" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Map</text>
+  <rect x="520" y="445" width="240" height="80" fill="#E0E0E0"/>
+  <circle cx="640" cy="485" r="5" fill="#4CAF50"/>
+</svg> 
