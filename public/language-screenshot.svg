@@ -1,0 +1,123 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Panel -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header Left -->
+  <rect width="400" height="50" fill="#2196F3"/>
+  <text x="54" y="33" font-family="Arial" font-size="20" fill="#FFFFFF">AI Language Tutor</text>
+  
+  <!-- Sidebar Left -->
+  <rect x="0" y="50" width="220" height="550" fill="#f0f0f0"/>
+  <rect x="0" y="100" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="130" font-family="Arial" font-size="16" fill="#333333">Dashboard</text>
+  
+  <rect x="0" y="150" width="220" height="50" fill="#FFFFFF"/>
+  <text x="54" y="180" font-family="Arial" font-size="16" fill="#333333">Spanish</text>
+  
+  <rect x="0" y="200" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="230" font-family="Arial" font-size="16" fill="#333333">French</text>
+  
+  <rect x="0" y="250" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="280" font-family="Arial" font-size="16" fill="#333333">Japanese</text>
+  
+  <rect x="0" y="300" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="330" font-family="Arial" font-size="16" fill="#333333">Settings</text>
+  
+  <!-- Main Content Left -->
+  <rect x="220" y="50" width="580" height="550" fill="#FFFFFF"/>
+  <text x="240" y="90" font-family="Arial" font-size="22" font-weight="bold" fill="#333333">Spanish Learning Dashboard</text>
+  
+  <!-- Progress -->
+  <rect x="240" y="120" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="260" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#2196F3">Your Progress</text>
+  <rect x="260" y="170" width="200" height="20" rx="10" fill="#f0f0f0"/>
+  <rect x="260" y="170" width="120" height="20" rx="10" fill="#2196F3"/>
+  <text x="260" y="210" font-family="Arial" font-size="16" fill="#333333">Level: Intermediate</text>
+  <text x="260" y="235" font-family="Arial" font-size="14" fill="#666666">60% to Advanced</text>
+  
+  <!-- Streak -->
+  <rect x="510" y="120" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="530" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#2196F3">Learning Streak</text>
+  <circle cx="580" cy="195" r="35" fill="#f0f0f0" stroke="#2196F3" stroke-width="8"/>
+  <text x="570" y="205" font-family="Arial" font-size="24" font-weight="bold" fill="#2196F3">28</text>
+  <text x="630" y="195" font-family="Arial" font-size="14" fill="#666666">days</text>
+  <text x="630" y="220" font-family="Arial" font-size="14" fill="#2196F3">Personal best!</text>
+  
+  <!-- Vocabulary -->
+  <rect x="240" y="280" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="260" y="310" font-family="Arial" font-size="18" font-weight="bold" fill="#2196F3">Vocabulary Review</text>
+  <text x="260" y="340" font-family="Arial" font-size="16" fill="#333333">Words Learned: 650</text>
+  <text x="260" y="370" font-family="Arial" font-size="16" fill="#333333">Mastered: 425</text>
+  <text x="260" y="400" font-family="Arial" font-size="14" fill="#2196F3">15 words due for review today</text>
+  
+  <!-- Today's Lessons -->
+  <rect x="510" y="280" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="530" y="310" font-family="Arial" font-size="18" font-weight="bold" fill="#2196F3">Today's Lessons</text>
+  <text x="530" y="340" font-family="Arial" font-size="14" fill="#666666">1. Past Tense Verbs</text>
+  <text x="530" y="365" font-family="Arial" font-size="14" fill="#666666">2. Restaurant Vocabulary</text>
+  <text x="530" y="390" font-family="Arial" font-size="14" fill="#666666">3. Conversation Practice</text>
+  
+  <!-- AI Message -->
+  <rect x="240" y="440" width="520" height="80" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <circle cx="280" cy="480" r="25" fill="#2196F3"/>
+  <text x="275" y="487" font-family="Arial" font-size="16" fill="#FFFFFF">AI</text>
+  <text x="320" y="485" font-family="Arial" font-size="14" fill="#333333">¡Hola! I noticed you're having trouble with irregular verbs. Would you like to practice them with a quick exercise?</text>
+  
+  <!-- Right Panel -->
+  <rect x="800" y="0" width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header Right -->
+  <rect x="800" y="0" width="400" height="50" fill="#2196F3"/>
+  <text x="854" y="33" font-family="Arial" font-size="20" fill="#FFFFFF">AI Language Tutor</text>
+  
+  <!-- Sidebar Right -->
+  <rect x="800" y="50" width="220" height="550" fill="#f0f0f0"/>
+  <rect x="800" y="100" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="130" font-family="Arial" font-size="16" fill="#333333">Dashboard</text>
+  
+  <rect x="800" y="150" width="220" height="50" fill="#FFFFFF"/>
+  <text x="854" y="180" font-family="Arial" font-size="16" fill="#333333">Spanish</text>
+  
+  <rect x="800" y="200" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="230" font-family="Arial" font-size="16" fill="#333333">French</text>
+  
+  <rect x="800" y="250" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="280" font-family="Arial" font-size="16" fill="#333333">Japanese</text>
+  
+  <rect x="800" y="300" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="330" font-family="Arial" font-size="16" fill="#333333">Settings</text>
+  
+  <!-- Main Content Right -->
+  <rect x="1020" y="50" width="580" height="550" fill="#FFFFFF"/>
+  <text x="1040" y="90" font-family="Arial" font-size="22" font-weight="bold" fill="#333333">Conversation Practice</text>
+  
+  <!-- Conversation -->
+  <rect x="1040" y="120" width="520" height="350" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- AI Message 1 -->
+  <rect x="1060" y="140" width="380" height="60" rx="10" fill="#E3F2FD"/>
+  <text x="1080" y="165" font-family="Arial" font-size="14" fill="#333333">¡Hola! ¿Cómo estás hoy?</text>
+  <text x="1080" y="185" font-family="Arial" font-size="12" fill="#666666">(Hello! How are you today?)</text>
+  
+  <!-- User Message 1 -->
+  <rect x="1140" y="210" width="380" height="60" rx="10" fill="#F5F5F5" x-anchor="right"/>
+  <text x="1160" y="235" font-family="Arial" font-size="14" fill="#333333">Estoy bien, gracias. ¿Y tú?</text>
+  <text x="1160" y="255" font-family="Arial" font-size="12" fill="#666666">(I'm good, thanks. And you?)</text>
+  
+  <!-- AI Message 2 -->
+  <rect x="1060" y="280" width="380" height="60" rx="10" fill="#E3F2FD"/>
+  <text x="1080" y="305" font-family="Arial" font-size="14" fill="#333333">Muy bien. ¿Qué hiciste ayer?</text>
+  <text x="1080" y="325" font-family="Arial" font-size="12" fill="#666666">(Very good. What did you do yesterday?)</text>
+  
+  <!-- User Input -->
+  <rect x="1040" y="390" width="520" height="60" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="1060" y="425" font-family="Arial" font-size="14" fill="#666666">Ayer yo...</text>
+  <rect x="1440" y="400" width="100" height="40" rx="20" fill="#2196F3"/>
+  <text x="1470" y="425" font-family="Arial" font-size="14" fill="#FFFFFF">Send</text>
+  
+  <!-- Learning Tips -->
+  <rect x="1040" y="480" width="520" height="100" rx="5" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="1060" y="510" font-family="Arial" font-size="18" font-weight="bold" fill="#2196F3">Learning Tips</text>
+  <text x="1060" y="535" font-family="Arial" font-size="14" fill="#666666">💡 Use "hice" (I did) for past tense of "hacer" (to do)</text>
+  <text x="1060" y="560" font-family="Arial" font-size="14" fill="#666666">💡 Try to include a time reference when talking about past events</text>
+</svg> 

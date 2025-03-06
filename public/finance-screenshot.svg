@@ -1,0 +1,143 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Panel -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header Left -->
+  <rect width="400" height="50" fill="#4CAF50"/>
+  <text x="54" y="33" font-family="Arial" font-size="20" fill="#FFFFFF">Finance Manager AI</text>
+  
+  <!-- Sidebar Left -->
+  <rect x="0" y="50" width="220" height="550" fill="#f0f0f0"/>
+  <rect x="0" y="100" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="130" font-family="Arial" font-size="16" fill="#333333">Dashboard</text>
+  
+  <rect x="0" y="150" width="220" height="50" fill="#FFFFFF"/>
+  <text x="54" y="180" font-family="Arial" font-size="16" fill="#333333">Accounts</text>
+  
+  <rect x="0" y="200" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="230" font-family="Arial" font-size="16" fill="#333333">Budgets</text>
+  
+  <rect x="0" y="250" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="280" font-family="Arial" font-size="16" fill="#333333">Investments</text>
+  
+  <rect x="0" y="300" width="220" height="50" fill="#f0f0f0"/>
+  <text x="54" y="330" font-family="Arial" font-size="16" fill="#333333">Reports</text>
+  
+  <!-- Main Content Left -->
+  <rect x="220" y="50" width="580" height="550" fill="#FFFFFF"/>
+  <text x="240" y="90" font-family="Arial" font-size="22" font-weight="bold" fill="#333333">Financial Dashboard</text>
+  
+  <!-- Account Summary -->
+  <rect x="240" y="120" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="260" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Account Summary</text>
+  <text x="260" y="180" font-family="Arial" font-size="16" fill="#333333">Checking: $3,245.67</text>
+  <text x="260" y="210" font-family="Arial" font-size="16" fill="#333333">Savings: $12,890.50</text>
+  <text x="260" y="240" font-family="Arial" font-size="16" fill="#333333">Credit Card: -$450.25</text>
+  
+  <!-- Monthly Budget -->
+  <rect x="510" y="120" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="530" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Monthly Budget</text>
+  <rect x="530" y="170" width="200" height="20" rx="10" fill="#f0f0f0"/>
+  <rect x="530" y="170" width="140" height="20" rx="10" fill="#4CAF50"/>
+  <text x="530" y="210" font-family="Arial" font-size="16" fill="#333333">Spent: $2,450 / $3,500</text>
+  <text x="530" y="235" font-family="Arial" font-size="14" fill="#666666">70% of monthly budget used</text>
+  
+  <!-- Recent Transactions -->
+  <rect x="240" y="280" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="260" y="310" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Recent Transactions</text>
+  <text x="260" y="340" font-family="Arial" font-size="14" fill="#666666">Grocery Store - $85.43</text>
+  <text x="260" y="365" font-family="Arial" font-size="14" fill="#666666">Coffee Shop - $4.50</text>
+  <text x="260" y="390" font-family="Arial" font-size="14" fill="#666666">Gas Station - $45.75</text>
+  
+  <!-- Savings Goals -->
+  <rect x="510" y="280" width="250" height="140" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="530" y="310" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Savings Goals</text>
+  <text x="530" y="340" font-family="Arial" font-size="14" fill="#666666">Vacation: $2,500 / $5,000</text>
+  <rect x="530" y="350" width="200" height="10" rx="5" fill="#f0f0f0"/>
+  <rect x="530" y="350" width="100" height="10" rx="5" fill="#4CAF50"/>
+  <text x="530" y="380" font-family="Arial" font-size="14" fill="#666666">Emergency Fund: $8,000 / $10,000</text>
+  <rect x="530" y="390" width="200" height="10" rx="5" fill="#f0f0f0"/>
+  <rect x="530" y="390" width="160" height="10" rx="5" fill="#4CAF50"/>
+  
+  <!-- AI Message -->
+  <rect x="240" y="440" width="520" height="80" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <circle cx="280" cy="480" r="25" fill="#4CAF50"/>
+  <text x="275" y="487" font-family="Arial" font-size="16" fill="#FFFFFF">AI</text>
+  <text x="320" y="470" font-family="Arial" font-size="14" fill="#333333">I noticed your restaurant spending is 30% higher than last month.</text>
+  <text x="320" y="495" font-family="Arial" font-size="14" fill="#333333">Would you like me to suggest some budget adjustments?</text>
+  
+  <!-- Right Panel -->
+  <rect x="800" y="0" width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Header Right -->
+  <rect x="800" y="0" width="400" height="50" fill="#4CAF50"/>
+  <text x="854" y="33" font-family="Arial" font-size="20" fill="#FFFFFF">Finance Manager AI</text>
+  
+  <!-- Sidebar Right -->
+  <rect x="800" y="50" width="220" height="550" fill="#f0f0f0"/>
+  <rect x="800" y="100" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="130" font-family="Arial" font-size="16" fill="#333333">Dashboard</text>
+  
+  <rect x="800" y="150" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="180" font-family="Arial" font-size="16" fill="#333333">Accounts</text>
+  
+  <rect x="800" y="200" width="220" height="50" fill="#FFFFFF"/>
+  <text x="854" y="230" font-family="Arial" font-size="16" fill="#333333">Budgets</text>
+  
+  <rect x="800" y="250" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="280" font-family="Arial" font-size="16" fill="#333333">Investments</text>
+  
+  <rect x="800" y="300" width="220" height="50" fill="#f0f0f0"/>
+  <text x="854" y="330" font-family="Arial" font-size="16" fill="#333333">Reports</text>
+  
+  <!-- Main Content Right -->
+  <rect x="1020" y="50" width="580" height="550" fill="#FFFFFF"/>
+  <text x="1040" y="90" font-family="Arial" font-size="22" font-weight="bold" fill="#333333">Budget Analysis</text>
+  
+  <!-- Budget Categories -->
+  <rect x="1040" y="120" width="520" height="200" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="1060" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Monthly Spending by Category</text>
+  
+  <!-- Bar Chart -->
+  <rect x="1060" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1060" y="230" width="30" height="60" fill="#4CAF50"/>
+  <text x="1060" y="305" font-family="Arial" font-size="12" fill="#666666">Housing</text>
+  
+  <rect x="1110" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1110" y="250" width="30" height="40" fill="#4CAF50"/>
+  <text x="1110" y="305" font-family="Arial" font-size="12" fill="#666666">Food</text>
+  
+  <rect x="1160" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1160" y="260" width="30" height="30" fill="#4CAF50"/>
+  <text x="1160" y="305" font-family="Arial" font-size="12" fill="#666666">Transport</text>
+  
+  <rect x="1210" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1210" y="270" width="30" height="20" fill="#4CAF50"/>
+  <text x="1210" y="305" font-family="Arial" font-size="12" fill="#666666">Utilities</text>
+  
+  <rect x="1260" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1260" y="240" width="30" height="50" fill="#FF9800"/>
+  <text x="1260" y="305" font-family="Arial" font-size="12" fill="#666666">Dining</text>
+  
+  <rect x="1310" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1310" y="265" width="30" height="25" fill="#4CAF50"/>
+  <text x="1310" y="305" font-family="Arial" font-size="12" fill="#666666">Shopping</text>
+  
+  <rect x="1360" y="170" width="30" height="120" fill="#E8F5E9"/>
+  <rect x="1360" y="275" width="30" height="15" fill="#4CAF50"/>
+  <text x="1360" y="305" font-family="Arial" font-size="12" fill="#666666">Other</text>
+  
+  <!-- Budget Recommendations -->
+  <rect x="1040" y="340" width="520" height="180" rx="5" fill="#FFFFFF" stroke="#ddd" stroke-width="1"/>
+  <text x="1060" y="370" font-family="Arial" font-size="18" font-weight="bold" fill="#4CAF50">Budget Recommendations</text>
+  
+  <text x="1060" y="400" font-family="Arial" font-size="16" fill="#333333">Dining Out Budget</text>
+  <text x="1060" y="425" font-family="Arial" font-size="14" fill="#666666">Current: $400/month (30% over budget)</text>
+  <text x="1060" y="450" font-family="Arial" font-size="14" fill="#666666">Recommendation: Reduce to $300/month</text>
+  <text x="1060" y="475" font-family="Arial" font-size="14" fill="#666666">Potential monthly savings: $100</text>
+  
+  <rect x="1060" y="490" width="200" height="10" rx="5" fill="#f0f0f0"/>
+  <rect x="1060" y="490" width="150" height="10" rx="5" fill="#4CAF50"/>
+  <rect x="1360" y="480" width="180" height="40" rx="20" fill="#4CAF50"/>
+  <text x="1400" y="505" font-family="Arial" font-size="14" fill="#FFFFFF">Apply Changes</text>
+</svg> 
